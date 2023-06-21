@@ -15,7 +15,7 @@ const App = () => {
         <Header x={x} />
         <Content y={y} />
         <Footer z={z} />
-        "©️ 2023 My Website. All rights reserved."
+        ©️ 2023 My Website. All rights reserved.
      </div>
   );
 }
