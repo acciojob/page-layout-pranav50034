@@ -1,5 +1,8 @@
 import React from "react";
+import ReactDOM from "react-dom";
 
-const Content = ({y}) => <p>{y}</p>
+function Content({ content }) {
+   return <p className="content">{content}</p>;
+}
 
-export default Content
+export default Content;

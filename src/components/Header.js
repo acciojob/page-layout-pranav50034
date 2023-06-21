@@ -1,5 +1,8 @@
 import React from "react";
+import ReactDOM from "react-dom";
 
-const Header = ({ x }) => <h1>{x}</h1>;
+function Header({ header }) {
+   return <h1 className="header">{header}</h1>;
+}
 
 export default Header;
